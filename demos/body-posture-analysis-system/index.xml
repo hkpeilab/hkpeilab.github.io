@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>✨ Body Posture Analysis System | PEILab</title><link>https://peilab.netlify.app/demos/body-posture-analysis-system/</link><atom:link href="https://peilab.netlify.app/demos/body-posture-analysis-system/index.xml" rel="self" type="application/rss+xml"/><description>✨ Body Posture Analysis System</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © The Pervasive Edge Intelligence Laboratory Reserved. 2023</copyright><lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><image><url>https://peilab.netlify.app/demos/body-posture-analysis-system/featured.png</url><title>✨ Body Posture Analysis System</title><link>https://peilab.netlify.app/demos/body-posture-analysis-system/</link></image><item><title>Video</title><link>https://peilab.netlify.app/demos/body-posture-analysis-system/video/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/demos/body-posture-analysis-system/video/</guid><description>&lt;p>Dr. Body Demo Video&lt;/p>
+&lt;p>
+&lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> about 1 minutes&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/Cfx66gy9K9c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;!--&lt;details class="spoiler " id="spoiler-2">
+&lt;summary>Is Python case-sensitive?&lt;/summary>
+&lt;p>Yes&lt;/p>
+&lt;/details>--></description></item></channel></rss>

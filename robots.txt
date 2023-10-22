@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://peilab.netlify.app/sitemap.xml

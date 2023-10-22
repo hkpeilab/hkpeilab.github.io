@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart City | PEILab</title><link>https://peilab.netlify.app/tags/smart-city/</link><atom:link href="https://peilab.netlify.app/tags/smart-city/index.xml" rel="self" type="application/rss+xml"/><description>Smart City</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © The Pervasive Edge Intelligence Laboratory Reserved. 2023</copyright><lastBuildDate>Sun, 20 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://peilab.netlify.app/media/logo_hude7c550c9b1c4d0119cb1e6619a815ae_62586_300x300_fit_lanczos_2.png</url><title>Smart City</title><link>https://peilab.netlify.app/tags/smart-city/</link></image><item><title>Edge AI in smart city</title><link>https://peilab.netlify.app/project/smart-city-1/</link><pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/smart-city-1/</guid><description>&lt;h2 id="research-overview">Research Overview&lt;/h2>
+&lt;p>Our team aims to design promising solutions for future AI applications based on edge intelligent technologies, which can empower construction, public health, environment, transportation and other industries, and promote the upgrading of urban intelligence.&lt;/p>
+&lt;h3 id="covid-19-forward-forecast-and-policy-evaluation-platform">COVID-19 Forward Forecast and Policy Evaluation Platform&lt;/h3>
+&lt;figure id="figure-covid-19-forward-forecast-and-policy-evaluation-platform">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="COVID-19 Forward Forecast and Policy Evaluation Platform" srcset="
+/project/smart-city-1/1_hue6e18c6b2fe66b3307a241f7e908f255_713743_52af6372fcb575313d581be3cb2d9495.png 400w,
+/project/smart-city-1/1_hue6e18c6b2fe66b3307a241f7e908f255_713743_ec24601ffd84a573778d1949162b28e5.png 760w,
+/project/smart-city-1/1_hue6e18c6b2fe66b3307a241f7e908f255_713743_1200x1200_fit_lanczos_2.png 1200w"
+src="https://peilab.netlify.app/project/smart-city-1/1_hue6e18c6b2fe66b3307a241f7e908f255_713743_52af6372fcb575313d581be3cb2d9495.png"
+width="760"
+height="277"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+COVID-19 Forward Forecast and Policy Evaluation Platform
+&lt;/figcaption>&lt;/figure>
+&lt;h3 id="intelligent-construction-site-safety-detection-system">Intelligent construction site safety detection system&lt;/h3>
+&lt;figure id="figure-intelligent-construction-site-safety-detection-system">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Intelligent construction site safety detection system" srcset="
+/project/smart-city-1/2_hu5640ff216837340e12aea6f268fe70bd_594540_0a7ba3d609337acf9fc1a2fddd67d8ed.png 400w,
+/project/smart-city-1/2_hu5640ff216837340e12aea6f268fe70bd_594540_c213c3f1a001d5f3839535b0168f13be.png 760w,
+/project/smart-city-1/2_hu5640ff216837340e12aea6f268fe70bd_594540_1200x1200_fit_lanczos_2.png 1200w"
+src="https://peilab.netlify.app/project/smart-city-1/2_hu5640ff216837340e12aea6f268fe70bd_594540_0a7ba3d609337acf9fc1a2fddd67d8ed.png"
+width="760"
+height="247"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Intelligent construction site safety detection system
+&lt;/figcaption>&lt;/figure>
+&lt;h3 id="low-cost-air-quality-testing-technology">Low-cost air quality testing technology&lt;/h3>
+&lt;figure id="figure-low-cost-air-quality-testing-technology">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Low-cost air quality testing technology" srcset="
+/project/smart-city-1/3_hu8fb9c9b186970428cc160450f675ce30_670851_825763948e640999cfa515b3cced4ad3.png 400w,
+/project/smart-city-1/3_hu8fb9c9b186970428cc160450f675ce30_670851_40ac7fa393f5c6e15b48e020c5c75e56.png 760w,
+/project/smart-city-1/3_hu8fb9c9b186970428cc160450f675ce30_670851_1200x1200_fit_lanczos_2.png 1200w"
+src="https://peilab.netlify.app/project/smart-city-1/3_hu8fb9c9b186970428cc160450f675ce30_670851_825763948e640999cfa515b3cced4ad3.png"
+width="760"
+height="215"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Low-cost air quality testing technology
+&lt;/figcaption>&lt;/figure></description></item><item><title>Next Generation AI Video Analytics Detection System on Driving Behavior and Mental Factors</title><link>https://peilab.netlify.app/project/next-generation-ai-video-analytics/</link><pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/next-generation-ai-video-analytics/</guid><description>&lt;p>Video-based abnormal driving behavior and mental detection is becoming more and more popular. The key goal is to ensure the safety of drivers and passengers in the vehicle, and it is an essential step to realize autonomous driving at this stage.&lt;/p>
+&lt;h2 id="proposed-solution">Proposed Solution&lt;/h2>
+&lt;ul>
+&lt;li>Cognitive science, human facial expression, and eye tracking with AI Video Analytics Detection System.&lt;/li>
+&lt;li>To build up an AI model for evaluating the driving mental factors and driving behavior of driver to provide the alert signal for human-computer interaction.&lt;/li>
+&lt;li>Quantify Similarity of individual data to the Common Patterns Using Machine Learning Methods (i.e., log likelihoods of data being generated by models).&lt;/li>
+&lt;/ul>
+&lt;h2 id="methodology">Methodology&lt;/h2>
+&lt;ol>
+&lt;li>Follow the previous research – In Psychology, HKU perform power analysis to determine the sample size (number of participants) required for detecting an effect, it have multiple predictors.&lt;/li>
+&lt;li>Mental factors features were identified in the previous research assuming a medium effect size (alpha 0.05 and 80% Power).&lt;/li>
+&lt;li>Big data collection in this project – Taxi Driver (at least 500 hours road driving video record) (e.g.: The Taxi driver who have been deducted the driving marks, in traffic jam situation).&lt;/li>
+&lt;li>Feature labelling - facial expression, texture, eye tracking, facial muscle change.&lt;/li>
+&lt;li>Train up the database.&lt;/li>
+&lt;/ol>
+&lt;h2 id="incentive-factors">Incentive Factors&lt;/h2>
+&lt;ul>
+&lt;li>Fanling Taxi Company (Mobile Shop Group Limited) supports this project, the camera can be installed in the Taxi to capture the real data (e.g.: angry or suddenly emotion change etc.) for analysis.&lt;/li>
+&lt;li>Mr. Wong (Director of Fanling Taxi Company) stated that his team want to join the Taxi Service Commendations Scheme and seek the technology to improve their quality of service. He and his team are to thirst for joining the trial.&lt;/li>
+&lt;/ul></description></item><item><title>Emergency Risk Management in Smart City</title><link>https://peilab.netlify.app/project/emergency-risk-management-in-smart-city/</link><pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/emergency-risk-management-in-smart-city/</guid><description>&lt;p>With the emergence and drastic improvement of mobile devices (e.g., phones, tablets, drones, and autonomous vehicles), we are now witnessing an exciting revolution of the digital city. Specifically, with the popularity of 5G networks, video-sharing and live-streaming applications (e.g., TikTok, BIGO, and Twitch) are becoming increasingly widespread. Besides allowing individuals to share life experiences and moments with their followers, video-based applications could also be a promising tool for sensing complex and dynamic urban environments.&lt;/p>
+&lt;p>With the development of AI-empowered video processing techniques, the ubiquitous mobile camera network has the potential to go beyond the video-surveillance system to capture various risks in the complex and dynamic city environment. However, the edge device has limited computation resource compared to the desktop GPU and CPU, which brings new challenge for optimizing AI algorithm for executing on edge devices.&lt;/p>
+&lt;figure id="figure-resource-constraint-mobile-devices">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Resource-constraint Mobile Devices"
+src="https://peilab.netlify.app/project/emergency-risk-management-in-smart-city/picture1.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Resource-constraint Mobile Devices
+&lt;/figcaption>&lt;/figure>
+&lt;p>Another major challenge is the heterogeneous of edge hardware. The AI models need to adapt to heterogeneous edge devices with significant ram and computation difference. The last challenge is view limitation. Since each edge device usually has a small field of view, it is very hard to capture an integrated scenario in the smart city. To support practical real-time risk detection, we must joint use multiple cameras to obtain abundant regional data.&lt;/p>
+&lt;figure id="figure-heterogeneous-mobile-devices">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Heterogeneous Mobile Devices"
+src="https://peilab.netlify.app/project/emergency-risk-management-in-smart-city/picture2.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Heterogeneous Mobile Devices
+&lt;/figcaption>&lt;/figure>
+&lt;p>To solve the above challenges, we proposed a crowdsourced mobile video analytics framework for emerging real-time risk management in smart cities. Specifically, our framework consists of three components, including city digital twins, collaborative learning mechanism and real-time risk management.&lt;/p>
+&lt;figure id="figure-a-crowdsourced-mobile-video-analytics-framework">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="A Crowdsourced Mobile Video Analytics Framework"
+src="https://peilab.netlify.app/project/emergency-risk-management-in-smart-city/picture3.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+A Crowdsourced Mobile Video Analytics Framework
+&lt;/figcaption>&lt;/figure>
+&lt;p>First, the digital twin is a replica of a physical word, and this pairing of the digital and physical worlds allows analysis of data and monitoring of systems to head off problems before they even occur.&lt;/p>
+&lt;figure id="figure-interactive-digital-twins-for-smart-city">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Interactive Digital Twins for Smart City"
+src="https://peilab.netlify.app/project/emergency-risk-management-in-smart-city/picture4.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Interactive Digital Twins for Smart City
+&lt;/figcaption>&lt;/figure>
+&lt;p>Second, the high-performance collaborative learning mechanism can provide a fast and robust computation capacity to support the real-time requests of the big data analytics in smart cities.&lt;/p>
+&lt;figure id="figure-high-performance-collaborative-learning">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="High Performance Collaborative Learning"
+src="https://peilab.netlify.app/project/emergency-risk-management-in-smart-city/picture5.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+High Performance Collaborative Learning
+&lt;/figcaption>&lt;/figure>
+&lt;p>Third, derived from the above two techniques, we develop a real-time risk management platform for proactive risk detection and self-defending emergency response.&lt;/p>
+&lt;figure id="figure-real-time-risk-management-platform">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Real –time Risk Management Platform"
+src="https://peilab.netlify.app/project/emergency-risk-management-in-smart-city/picture6.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Real –time Risk Management Platform
+&lt;/figcaption>&lt;/figure>
+&lt;p>The research team will conduct in-depth cooperation with professors from the Department of Real Estate and the Department of Electronic and Information Engineering to promote in-depth research on the security of construction sites based on risk management technology based on edge intelligence.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Federated Learning | PEILab</title><link>https://peilab.netlify.app/tags/federated-learning/</link><atom:link href="https://peilab.netlify.app/tags/federated-learning/index.xml" rel="self" type="application/rss+xml"/><description>Federated Learning</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © The Pervasive Edge Intelligence Laboratory Reserved. 2023</copyright><lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><image><url>https://peilab.netlify.app/media/logo_hude7c550c9b1c4d0119cb1e6619a815ae_62586_300x300_fit_lanczos_2.png</url><title>Federated Learning</title><link>https://peilab.netlify.app/tags/federated-learning/</link></image><item><title>Efficient Federated Learning Framework on Heterogeneous Environment</title><link>https://peilab.netlify.app/project/efficient-federated-learning-framework/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/efficient-federated-learning-framework/</guid><description>&lt;h2 id="research-overview">Research Overview&lt;/h2>
+&lt;p>Our team aims to design promising solutions for future AI applications in Federated Learning (FL) systems, which enable distributed computing nodes to collaboratively train machine learning models without exposing their own data. We focus on solving the following challenging issues:&lt;/p>
+&lt;ul>
+&lt;li>Heterogeneous Hardware &amp;amp; Data&lt;/li>
+&lt;li>Resource constraints&lt;/li>
+&lt;li>Expensive communication&lt;/li>
+&lt;li>Lack of participants&lt;/li>
+&lt;/ul>
+&lt;h5 id="reference">Reference:&lt;/h5>
+&lt;p>[1]. Edge Learning: the Enabling Technology for Distributed Big Data Analytics in the Edge. &lt;em>ACM Computing Surveys (TC)&lt;/em>, &lt;u>JCR-Q1&lt;/u>&lt;/p>
+&lt;p>[2]. A Survey of Incentive Mechanism Design for Federated Learning. &lt;em>IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)&lt;/em>, &lt;u>JCR-Q1&lt;/u>&lt;/p></description></item><item><title>Heterogeneous Data \&amp; Resource Constraints- Batch Size Adaptation</title><link>https://peilab.netlify.app/project/batch-size-adaptation/</link><pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/batch-size-adaptation/</guid><description>&lt;!-- ### **1. Heterogeneous Data &amp; Resource Constraints: Batch Size Adaptation** -->
+&lt;h3 id="introduction">Introduction&lt;/h3>
+&lt;p>Federated learning (FL) has been widely recognized as a promising approach by enabling individual participants to cooperatively train a global model without exposing their own data. One of the key challenges in FL is that data distributions in different participants are usually non-independently and identically distributed (non-IID). For example, different areas can have very different disease distributions. Besides, the participants are usually resource-constrained with limited computational power, storage capacity, transmission range and battery. It is essential to design novel training framework to address above challenges. However, existing approaches either consider the optimization of server-side aggregation or focus on improving the client-side training efficiency, which only lead to sub-optimal performance. Therefore, we are going to investigate a new method to improve training efficiency of each client from the perspective of whole training process under the circumstances of non-IID data. In our proposed framework, both the local training and global aggregation are optimized by using a deep reinforcement learning agent to determine the batch size of each client according to the current state in each communication round.&lt;/p>
+&lt;h5 id="reference">Reference:&lt;/h5>
+&lt;p>[3]. Adaptive Federated Learning on Non-IID Data with Resource Constraint. &lt;em>IEEE Transactions on Computers (TC)&lt;/em>, &lt;u>CCF-A&lt;/u>&lt;/p></description></item><item><title>Heterogeneous Data \&amp; Expensive Communication- Layer-wised Aggregation</title><link>https://peilab.netlify.app/project/layer-wised-aggregation/</link><pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/layer-wised-aggregation/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Instead of collaboratively train only one global for all clients, personalized federated learning (pFL) mechanisms are proposed to allow each client to train a customized model to adapt to their own data distribution. Researches over the past few years have applied the weighted aggregation manner to produce personalized models, where the weights are determined by calibrating the distance of the entire model parameters or loss values, and have yet to consider the layer-level impacts to the aggregation process, leading to lagged model convergence and inadequate personalization over non-IID datasets. We design a novel pFL training framework dubbed Layer-wised Personalized Federated learning (pFedLA) that can discern the importance of each layer from different clients, and thus is able to optimize the personalized model aggregation for clients with heterogeneous data.&lt;/p>
+&lt;!--
+&lt;figure id="figure-workflow-of-the-layer-wised-aggregation-method-4-we-use-hypernetwork-to-identify-the-mutual-contribution-factors-at-layer-granularity">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Workflow of the Layer-wised aggregation method [4]. We use hypernetwork to identify the mutual contribution factors at layer granularity." srcset="
+/project/layer-wised-aggregation/Layer-wised-Aggregation_hu880023bd7f685fb513ef31bfcd1fbd47_869552_3b7eeae491a3ad768632e1f8c062baad.png 400w,
+/project/layer-wised-aggregation/Layer-wised-Aggregation_hu880023bd7f685fb513ef31bfcd1fbd47_869552_0efa1fa3bd9675bc60ec652c7578af87.png 760w,
+/project/layer-wised-aggregation/Layer-wised-Aggregation_hu880023bd7f685fb513ef31bfcd1fbd47_869552_1200x1200_fit_lanczos_2.png 1200w"
+src="https://peilab.netlify.app/project/layer-wised-aggregation/Layer-wised-Aggregation_hu880023bd7f685fb513ef31bfcd1fbd47_869552_3b7eeae491a3ad768632e1f8c062baad.png"
+width="760"
+height="319"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Workflow of the Layer-wised aggregation method [4]. We use hypernetwork to identify the mutual contribution factors at layer granularity.
+&lt;/figcaption>&lt;/figure> -->
+&lt;h5 id="reference">Reference:&lt;/h5>
+&lt;p>[4]. Layer-wised Model Aggregation for Personalized Federated Learning. &lt;em>CVPR&lt;/em>, &lt;u>CCF-A&lt;/u>&lt;/p></description></item><item><title>Heterogeneous Hardware \&amp; Data- Parameterized Knowledge Transfer</title><link>https://peilab.netlify.app/project/parameterized-knowledge-transfer/</link><pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/parameterized-knowledge-transfer/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Most existing pFL methods rely on model parameters aggregation at the server side, which require all models to have the same structure and size. Such constraints would prevent status quo pFL methods from further application in practical scenarios, where clients are often willing to own unique models, i.e., with customized neural architectures to adapt to heterogeneous capacities in computation, communication and storage space, etc. We seek to develop a novel training framework that can accommodate heterogeneous model structures for each client and achieve personalized knowledge transfer in each FL training round. Specifically, the aggregation procedure in original pFL is formulated into a personalized group knowledge transfer training algorithm, which enable each client to maintain a personalized soft prediction at the server side to guide the others' local training.&lt;/p>
+&lt;!--
+&lt;figure id="figure-our-work-parameterized-knowledge-transfer-for-personalized-federated-learning-5">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Our work: Parameterized Knowledge Transfer for Personalized Federated Learning [5]." srcset="
+/project/parameterized-knowledge-transfer/parameterized-%20knowledge-transfer-2_hu80670285de7014040b5cc4a7b6a90f87_246328_fe08a9a2e2c6f3e5652c9cb982d584b6.png 400w,
+/project/parameterized-knowledge-transfer/parameterized-%20knowledge-transfer-2_hu80670285de7014040b5cc4a7b6a90f87_246328_caf0f4e56d5a179788679abba2ea4e3b.png 760w,
+/project/parameterized-knowledge-transfer/parameterized-%20knowledge-transfer-2_hu80670285de7014040b5cc4a7b6a90f87_246328_1200x1200_fit_lanczos_2.png 1200w"
+src="https://peilab.netlify.app/project/parameterized-knowledge-transfer/parameterized-%20knowledge-transfer-2_hu80670285de7014040b5cc4a7b6a90f87_246328_fe08a9a2e2c6f3e5652c9cb982d584b6.png"
+width="760"
+height="360"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Our work: Parameterized Knowledge Transfer for Personalized Federated Learning [5].
+&lt;/figcaption>&lt;/figure> -->
+&lt;h5 id="reference">Reference:&lt;/h5>
+&lt;p>[5]. Parameterized Knowledge Transfer for Personalized Federated Learning. &lt;em>NeurIPS&lt;/em>, &lt;u>CCF-A&lt;/u>&lt;/p></description></item><item><title>Lack of participants- Incentive Mechanism Design for Federated Learning</title><link>https://peilab.netlify.app/project/incentive-mechanism-design/</link><pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/incentive-mechanism-design/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>The main objective of incentive is to motive data owners to participate in FL. A few of works have designed incentive mechanisms for FL, but these mechanisms only consider myopia optimization on resource consumption, which results in the lack of learning algorithm performance guarantee and long-term sustainability. We propose Chiron, an incentive-driven long-term mechanism for edge learning based on hierarchical deep reinforcement learning. First, our optimization goal combines learning-algorithms metric (i.e., model accuracy) with system metric (i.e., learning time, and resource consumption), which can improve edge learning quality under a fixed training budget. Second, we present a two-layer H-DRL design with exterior and inner agents to achieve both long-term and short-term optimization for edge learning, respectively.&lt;/p>
+&lt;!--
+&lt;figure id="figure-our-work-hierarchical-reinforcement-learning-for-incentive-mechanism-in-federated-learning-6">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Our work: Hierarchical Reinforcement Learning for Incentive mechanism in Federated Learning [6]." srcset="
+/project/incentive-mechanism-design/incentive-2_hu9a90b143aeb36504de2827d321700749_735262_5ac5a158bc8e5a039d2e86ec7618167c.png 400w,
+/project/incentive-mechanism-design/incentive-2_hu9a90b143aeb36504de2827d321700749_735262_44d055f3be532856e2ccc744f59570f2.png 760w,
+/project/incentive-mechanism-design/incentive-2_hu9a90b143aeb36504de2827d321700749_735262_1200x1200_fit_lanczos_2.png 1200w"
+src="https://peilab.netlify.app/project/incentive-mechanism-design/incentive-2_hu9a90b143aeb36504de2827d321700749_735262_5ac5a158bc8e5a039d2e86ec7618167c.png"
+width="760"
+height="260"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Our work: Hierarchical Reinforcement Learning for Incentive mechanism in Federated Learning [6].
+&lt;/figcaption>&lt;/figure> -->
+&lt;h5 id="reference">Reference:&lt;/h5>
+&lt;p>[6]. Incentive-Driven Long-term Optimization for Edge Learning by Hierarchical Reinforcement Mechanism. &lt;em>ICDCS&lt;/em>, &lt;u>CCF-B&lt;/u>&lt;/p></description></item><item><title>Federated Learning in Resourced Constrained Mobile Edge Network</title><link>https://peilab.netlify.app/project/federated-learning-in-resourced-constrained-mobile-edge-network/</link><pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/federated-learning-in-resourced-constrained-mobile-edge-network/</guid><description>&lt;p>Federated learning (FL) has been proposed as a promising solution for future AI applications with strong privacy protection. It enables distributed computing nodes to collaboratively train models without exposing their own data. In this research topic, we focus on overcoming the heterogeneity challenge (e.g., data heterogeneity, model heterogeneity) in FL.&lt;/p>
+&lt;figure id="figure-collaborative-learning">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Collaborative Learning"
+src="https://peilab.netlify.app/project/federated-learning-in-resourced-constrained-mobile-edge-network/picture1.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Collaborative Learning
+&lt;/figcaption>&lt;/figure>
+&lt;p>Efficient Federated Learning on Heterogeneous Data: from the perspective of distribution characteristics of training data, FL can be categorized into two types, i.e., horizontal federated learning (HFL) and vertical federated learning (VFL). In HFL, we aim to propose efficient and robust learning scheme in resource-constrained computing environment by training a reinforcement learning model to adaptively tune the systematical parameters (e.g., the batch size in each client). Moreover, we explore the unbalanced features in VFL, the fundamental theories and algorithms are proposed to improve the learning efficiency and accuracy.&lt;/p>
+&lt;figure id="figure-knowledge-distillation">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Knowledge Distillation"
+src="https://peilab.netlify.app/project/federated-learning-in-resourced-constrained-mobile-edge-network/picture2.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Knowledge Distillation
+&lt;/figcaption>&lt;/figure>
+&lt;p>The Optimization of Federated Learning with Heterogenous Models: in this topic, we make effort on developing flexible and novel training framework by combining other techniques with FL, including (1) Knowledge Distillation (KD), (2) Generative Adversarial Networks (GAN), (3) Neural Architecture Search (NAS), (4) Meta Learning, etc. Furthermore, we investigate the personalization in FL, which is also a good way to handle the above challenges.&lt;/p></description></item></channel></rss>

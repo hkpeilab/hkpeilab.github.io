@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | PEILab</title><link>https://peilab.netlify.app/project/</link><atom:link href="https://peilab.netlify.app/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © The Pervasive Edge Intelligence Laboratory Reserved. 2023</copyright><lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate><image><url>https://peilab.netlify.app/media/logo_hude7c550c9b1c4d0119cb1e6619a815ae_62586_300x300_fit_lanczos_2.png</url><title>Projects</title><link>https://peilab.netlify.app/project/</link></image><item><title>An Elastic Transformer Serving System for Foundation Model via Token Adaptation</title><link>https://peilab.netlify.app/project/an-elastic-transformer-serving-system-for-foundation-model-via-token-adaptation-%E5%89%AF%E6%9C%AC/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/an-elastic-transformer-serving-system-for-foundation-model-via-token-adaptation-%E5%89%AF%E6%9C%AC/</guid><description>&lt;p>Transformer model empowered architectures have become a pillar of cloud services that keeps reshaping our society. However, the dynamic query loads and heterogeneous user requirements severely challenge current transformer serving systems, which rely on pre-training multiple variants of a foundation model to accommodate varying service demands. Unfortunately, such a mechanism is unsuitable for large transformer models due to the prohibitive training costs and excessive I/O delay. We introduce OTAS, the first elastic serving system specially tailored for transformer models by exploring lightweight token management. We develop a novel idea called token adaptation. To cope with fluctuating query loads and diverse user requests, we enhance OTAS with application-aware selective batching and online token adaptation.&lt;/p>
+&lt;h2 id="prototype-overview">Prototype Overview&lt;/h2>
+&lt;p>We use Python to process the incoming queries and PyTorch to define the neural networks. We build the transformer model with timm library and insert two modules to add and remove the processing tokens at each layer. The system enables users to make a query and register tasks with two interfaces. The Make Query interface processes a query that comprises an image sample and various attributes. The Register Task interface saves the task parameters in the task model list and the corresponding latency and utility values in the task data list.&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="" srcset="
+/project/an-elastic-transformer-serving-system-for-foundation-model-via-token-adaptation-%E5%89%AF%E6%9C%AC/1_hu79deb2fad71fbde07430773b3e61f36e_56060_4e1cf762b6d7ec989fbfc50b1c0ced7c.png 400w,
+/project/an-elastic-transformer-serving-system-for-foundation-model-via-token-adaptation-%E5%89%AF%E6%9C%AC/1_hu79deb2fad71fbde07430773b3e61f36e_56060_e732651146b62d746651e812971b9fc1.png 760w,
+/project/an-elastic-transformer-serving-system-for-foundation-model-via-token-adaptation-%E5%89%AF%E6%9C%AC/1_hu79deb2fad71fbde07430773b3e61f36e_56060_1200x1200_fit_lanczos_2.png 1200w"
+src="https://peilab.netlify.app/project/an-elastic-transformer-serving-system-for-foundation-model-via-token-adaptation-%E5%89%AF%E6%9C%AC/1_hu79deb2fad71fbde07430773b3e61f36e_56060_4e1cf762b6d7ec989fbfc50b1c0ced7c.png"
+width="309"
+height="260"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure></description></item><item><title>Intelligence-Endogenous Management Platform for Computing and Network Convergence</title><link>https://peilab.netlify.app/project/intelligence-endogenous-management-platform-for-computing-and-network-convergence/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/intelligence-endogenous-management-platform-for-computing-and-network-convergence/</guid><description>&lt;p>Massive emerging applications are driving demand for the ubiquitous deployment of computing power today. This trend not only spurs the recent popularity of the Computing and Network Convergence (CNC), but also introduces an urgent need for the intelligentization of a management platform to coordinate changing resources and tasks in the CNC. Therefore, we present the concept of an intelligence-endogenous management platform for CNCs called CNC brain based on artificial intelligence technologies. It aims at efficiently and automatically matching the supply and demand with high heterogeneity in a CNC via four key building blocks, i.e., perception, scheduling, adaptation, and governance, throughout the CNC&amp;rsquo;s life cycle. Their functionalities, goals, and challenges are presented.&lt;/p>
+&lt;h2 id="prototype-overview">Prototype Overview&lt;/h2>
+&lt;p>To examine the effectiveness of the proposed concept and framework, we also implement a prototype for the CNC brain based on a deep reinforcement learning technology. Also, it is evaluated on a CNC testbed that integrates three open-source and popular frameworks (OpenFaas, Kubernetes, and Ethereum) and a real-world business dataset provided by Microsoft Azure. The evaluation results prove the prototype&amp;rsquo;s effectiveness in terms of resource utilization and performance.
+Reference: &lt;a href="https://arxiv.org/abs/2308.03450">https://arxiv.org/abs/2308.03450&lt;/a>&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="" srcset="
+/project/intelligence-endogenous-management-platform-for-computing-and-network-convergence/1_hu2f3450ce12f4028d239f9eaf4bcb7d19_144802_ab7cdec498fa73f32f119eb06521f87d.png 400w,
+/project/intelligence-endogenous-management-platform-for-computing-and-network-convergence/1_hu2f3450ce12f4028d239f9eaf4bcb7d19_144802_16b69f0ec855042302c46829ddfb8f56.png 760w,
+/project/intelligence-endogenous-management-platform-for-computing-and-network-convergence/1_hu2f3450ce12f4028d239f9eaf4bcb7d19_144802_1200x1200_fit_lanczos_2.png 1200w"
+src="https://peilab.netlify.app/project/intelligence-endogenous-management-platform-for-computing-and-network-convergence/1_hu2f3450ce12f4028d239f9eaf4bcb7d19_144802_ab7cdec498fa73f32f119eb06521f87d.png"
+width="760"
+height="346"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure></description></item><item><title>Investigating Trojan Attacks on Pre-trained Language Model-powered Database Middleware</title><link>https://peilab.netlify.app/project/investigating-trojan-attacks-on-pre-trained-language-model-powered-database-middleware/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/investigating-trojan-attacks-on-pre-trained-language-model-powered-database-middleware/</guid><description>&lt;p>The recent success of pre-trained language models (PLMs) such as BERT has resulted in the development of various beneficial database middlewares, including natural language query interfaces and entity matching. This shift has been greatly facilitated by the extensive external knowledge of PLMs. However, as PLMs are often provided by untrusted third parties, their lack of standardization and regulation poses significant security risks that have yet to be fully explored. This paper investigates the security threats posed by malicious PLMs to these emerging database middlewares. We specifically propose a novel type of Trojan attack, where a maliciously designed PLM causes unexpected behavior in the database middleware. These Trojan attacks possess the following characteristics: (1) Triggerability: The Trojan-infected database middleware will function normally with normal input, but will likely malfunction when triggered by the attacker. (2) Imperceptibility: There is no need for noticeable modification of the input to trigger the Trojan. (3) Generalizability: The Trojan is capable of targeting a variety of downstream tasks, not just one specific task. We thoroughly evaluate the impact of these Trojan attacks through experiments and analyze potential countermeasures and their limitations. Our findings could aid in the creation of stronger mechanisms for the implementation of PLMs in database middleware.&lt;/p></description></item><item><title>Warming Serverless ML Inference via Inter-function Model Transformation</title><link>https://peilab.netlify.app/project/warming-serverless-ml-inference-via-inter-function-model-transformation/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/warming-serverless-ml-inference-via-inter-function-model-transformation/</guid><description>&lt;p>Serverless ML inference is an emerging cloud computing paradigm for low-cost, easy-to-manage inference services. In serverless ML inference, each call is executed in a container; however, the cold start of containers results in long inference delays. Unfortunately, most existing works do not work well because they still need to load models into containers from scratch, which is the bottleneck based on our observations. Therefore, we propose a low-latency serverless ML inference system called Optimus via a new container management scheme.&lt;/p>
+&lt;h2 id="prototype-overview">Prototype Overview&lt;/h2>
+&lt;p>Optimus API and communication between clients and the gateway are implemented in REST API format. Clients can invoke an inference procedure by sending an HTTP request containing the model name and input data. Optimus stores the trained models in a Docker volume that is attached directly to each container created by the system. Models are deployed to the Docker volume in HDF format. Model structure information and model-to-model transformation planing are stored with the models in JSON format. On the host machine, a gateway service runs as the container manager. It uses the Docker SDK for Python to create, run, and remove containers in the local Docker environment. It also runs a Flask HTTP server that accepts client requests and sends them to containers.&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="" srcset="
+/project/warming-serverless-ml-inference-via-inter-function-model-transformation/1_hue40c301b3c5d6105da1815942e48571c_182775_50ba05d0065e2b88ccccbb7992813146.png 400w,
+/project/warming-serverless-ml-inference-via-inter-function-model-transformation/1_hue40c301b3c5d6105da1815942e48571c_182775_14507c1104a9bbccb276982a2d185795.png 760w,
+/project/warming-serverless-ml-inference-via-inter-function-model-transformation/1_hue40c301b3c5d6105da1815942e48571c_182775_1200x1200_fit_lanczos_2.png 1200w"
+src="https://peilab.netlify.app/project/warming-serverless-ml-inference-via-inter-function-model-transformation/1_hue40c301b3c5d6105da1815942e48571c_182775_50ba05d0065e2b88ccccbb7992813146.png"
+width="760"
+height="456"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure></description></item><item><title>A Unified TinyML System for Multi-modal Edge Intelligence and Real-time Visual Perception.</title><link>https://peilab.netlify.app/project/unified-tinyml-system-main/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/unified-tinyml-system-main/</guid><description>&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Modern machine learning (ML) applications are often deployed in the cloud environment to exploit the computational power of clusters. However, this in-cloud computing scheme cannot satisfy the demands of emerging edge intelligence scenarios, including providing personalized models, protecting user privacy, adapting to real-time tasks and saving resource costs. To conquer the limitations of conventional in-cloud computing, it comes the rise of on-device learning, which handles the end-to-end ML procedure mainly on user devices, and restricts unnecessary involvement of the cloud. Despite the promising advantages of on-device learning, implementing a high-performance on-device learning system still faces many severe challenges, such as insufficient user training data, backward propagation blocking and limited peak processing speed.&lt;/p>
+&lt;p>&lt;strong>Illustration:&lt;/strong> Conventional ML applications rely on the in-cloud learning paradigm, incurring essential drawbacks. Upgrading to the TinyML paradigm can effectively address these issues.&lt;/p>
+&lt;h2 id="2-architecture-overview">2. Architecture Overview&lt;/h2>
+&lt;p>Observing the substantial improvement space in the implementation and acceleration of on-device learning systems, our group devote to designing high-performance TinyML architectures and relevant optimization algorithms, especially for embedded devices and microprocessors. Our research focuses on the software and hardware synergy of on-device learning techniques, covering the scope of model-level neural network design, algorithm-level training optimization and hardware-level instruction acceleration. Here, we present the architecture overview of our system design.&lt;/p>
+&lt;figure id="figure-architecture-overview">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Architecture Overview" srcset="
+/project/unified-tinyml-system-main/2_hu2c3ef37d9abd4a800b49f2d28afa9c54_919294_1893169e646002294db55a3bcbb8d652.png 400w,
+/project/unified-tinyml-system-main/2_hu2c3ef37d9abd4a800b49f2d28afa9c54_919294_924c49efc81088ccd881b8efbd832dbc.png 760w,
+/project/unified-tinyml-system-main/2_hu2c3ef37d9abd4a800b49f2d28afa9c54_919294_1200x1200_fit_lanczos_2.png 1200w"
+src="https://peilab.netlify.app/project/unified-tinyml-system-main/2_hu2c3ef37d9abd4a800b49f2d28afa9c54_919294_1893169e646002294db55a3bcbb8d652.png"
+width="760"
+height="388"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Architecture Overview
+&lt;/figcaption>&lt;/figure>
+&lt;p>&lt;strong>Illustration:&lt;/strong> an efficient TinyML system require a holistic design of the entire hierarchy, which can be resolved as five key research opportunities.&lt;/p>
+&lt;h2 id="3-research-opportunities">3. Research Opportunities&lt;/h2>
+&lt;p>Here are five key research opportunities to implement our system. Please check the sub-folders for details.&lt;/p>
+&lt;h2 id="4-achievements">4. Achievements&lt;/h2>
+&lt;p>The on-device learning techniques can be employed in many emerging TinyML scenarios, where the system performance is often bounded by the limited hardware resources. Currently, our group has achieved breakthroughs in improving the computational capacity and designing domain-specific AI chips for task acceleration. These chips can be designed from the perspectives of model compression, few-shot learning, quantization-ware training, memory management and low-level instructions. We pursue the vision that helps researchers and developers optimize AI deployment without tedious code modifications. Some research demos have been open-source on Github, please visit at:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;i class="fab fa-github-square pr-1 fa-fw">&lt;/i>&lt;a href="https://github.com/kimihe" target="_blank" rel="noopener">https://github.com/kimihe&lt;/a>&lt;/li>
+&lt;li>
+&lt;i class="fab fa-github-square pr-1 fa-fw">&lt;/i>&lt;a href="https://github.com/FromSystem" target="_blank" rel="noopener">https://github.com/FromSystem&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="5-related-publications">5. Related Publications&lt;/h2>
+&lt;p>[1] Octo: INT8 Training with Loss-aware Compensation and Backward Quantization for Tiny On-device Learning, In Proc. of USENIX Annual Technical Conference (ATC), 2021 (CCF-A).
+[2] On-device Learning Systems for Edge Intelligence: A Software and Hardware Synergy Perspective, IEEE Internet of Things Journal, 2020 (JCR-Q1).
+[3] Petrel: Heterogeneity-aware Distributed Deep Learning via Hybrid Synchronization, IEEE Transactions on Parallel and Distributed Systems (TPDS), 2020 (CCF-A).
+[4] Dual-view Attention Networks for Single Image Super-Resolution, In Proc. of the ACM International Conference on Multimedia (MM), 2020 (CCF-A).&lt;/p>
+&lt;h2 id="6cooperators">6. Cooperators&lt;/h2>
+&lt;p>Our group have established close cooperation with industrial communities, including Microsoft Research Asia, Alibaba DAMO Academy, Huawei Cloud, etc.&lt;/p>
+&lt;h2 id="7phdintern-applications">7. PhD/intern Applications:&lt;/h2>
+&lt;p>We are looking for students and partners who are interested in:&lt;/p>
+&lt;p>(1) On-device/TinyML Systems (for Edge Intelligence)&lt;br>
+(2) Distributed Machine Learning Systems (for Data center)&lt;br>
+(3) Modern AI/ML frameworks: e.g., NVIDIA NCCL, CUDA, TensorRT, Apple CoreML, PyTorch, TensorFlow, Keras, BytePS, Gym, etc.&lt;br>
+(4) Domain-specific hardware optimization and implementation, e.g., NVIDIA Jetson, FPGA, Microprocessors, AI Chips, etc.&lt;br>
+(5) Coding contribution to our GitHub repositories.&lt;/p></description></item><item><title>Adaptive Quantization-aware Training and Model Compression.</title><link>https://peilab.netlify.app/project/r1-adaptive-qat/</link><pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/r1-adaptive-qat/</guid><description>&lt;h3 id="research-opportunity-1-adaptive-quantization-aware-training-and-model-compression">Research Opportunity 1: Adaptive Quantization-aware Training and Model Compression&lt;/h3>
+&lt;p>&lt;strong>Illustration:&lt;/strong> On-device learning is an emerging technique to pave the last mile of enabling edge intelligence, which eliminates the limitations of conventional in-cloud computing where dozens of computational capacities and memories are needed. A high- performance on-device learning system requires breaking the constraints of limited resources and alleviating computational overhead. Our preliminary work shows that employing the 8-bit fixed-point (INT8) quantization in both forward and back- ward passes over a deep model is a promising way to enable tiny on-device learning in practice. The key to an efficient quantization-aware training (QAT) method is to exploit the hardware- level enabled acceleration while preserving the training quality in each layer. However, off-the-shelf quantization methods cannot handle the on-device learning paradigm of fixed-point processing. To overcome these challenges, we propose to design an adaptive QAT algorithm, which jointly optimizes the computation of forward and backward passes. Besides, we need to build efficient network components to automatically counteract the quantization error of tensor arithmetic. We intend to implement our methods in Octo, a lightweight cross-platform system for tiny on-device learning, and keep improving its performance to support more realistic applications.&lt;/p></description></item><item><title>A Unified Contrastive Representation Learner for Cross-modal Federated Learning Systems.</title><link>https://peilab.netlify.app/project/r3-cross-modal-representation-learner/</link><pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/r3-cross-modal-representation-learner/</guid><description>&lt;h3 id="research-opportunity-3-a-unified-contrastive-representation-learner-for-cross-modal-federated-learning-systems">Research Opportunity 3: A Unified Contrastive Representation Learner for Cross-modal Federated Learning Systems&lt;/h3>
+&lt;p>&lt;strong>Illustration:&lt;/strong> Contrastive representation learners have achieved great advantages for modern visual tasks. Existing methods (e.g., CLIP, visialGPT, VideoCLIP, and UniFormer) are resource-expensive, thus are not suitable for the realistic scenarios of deploying federated learning applications. Meanwhile, the single data modality of conventional FL systems significantly limits the scalability and applicability. Building an economical and efficient representation learner is the key issue to implement downstream tasks. This requires us to design a new cross-modal federated learning framework, which tackles the multimodality fusion of latent features and provides higher performance over the single-modal paradigms.&lt;/p></description></item><item><title>Progressive Network Sparsification and Latent Feature Compression for Scalable Collaborative Learning.</title><link>https://peilab.netlify.app/project/r4-progressive-feature-compression/</link><pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/r4-progressive-feature-compression/</guid><description>&lt;h3 id="research-opportunity-4-progressive-network-sparsification-and-latent-feature-compression-for-scalable-collaborative-learning">Research Opportunity 4: Progressive Network Sparsification and Latent Feature Compression for Scalable Collaborative Learning&lt;/h3>
+&lt;p>&lt;strong>Illustration:&lt;/strong> In the edge intelligence environment, new data is continuously generated on user devices that cannot be aggregated at once due to privacy and energy concerns. These issues require us to develop new insights into traffic saving to build a communication-efficient collaborative learning paradigm. Unlike previous methods aiming at improving bandwidth utilization or using an unstructured pixel-wise compression, we jointly capture the channel and spatial-level feature redundancy, and conduct a hierarchical compression in these two levels to achieve a much higher traffic reduction ratio. Specifically, we need to design a more efficient feature compression method to leverage the pixel similarity, and reorganize the features into groups based on channel significance to prune the network. Meanwhile, we intend to calibrate the gradients of compressed features with a comprehensive theoretical analysis of the convergence rate. Such a co-design can provide a significant traffic reduction over existing methods while not sacrificing much model accuracy, achieving good training flexibility and communicational efficiency. We believe this work can contribute to the further development of edge intelligence applications.&lt;/p></description></item><item><title>Masked Autoencoders for Occlusion-aware Visual Learners</title><link>https://peilab.netlify.app/project/r5-visual-anti-occlusion/</link><pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/r5-visual-anti-occlusion/</guid><description>&lt;h3 id="research-opportunity-5-masked-autoencoders-for-occlusion-aware-visual-learners">Research Opportunity 5: Masked Autoencoders for Occlusion-aware Visual Learners&lt;/h3>
+&lt;p>&lt;strong>Illustration:&lt;/strong> Recent years have witnessed learning-based video perception algorithms getting popular in more scenarios with occlusions, where invisible areas for perception objects significantly affect accuracy. Existing methods mainly use convolutional neural networks as the backbone and get limited local features to recover the occluded part. Such an anti-occlusion pipeline often suffers from the challenges of self-occlusion scenery, where similar parts of occluders and occludes are ambiguous. In this case, we need to design a masked visual autoencoder for image processing and video streaming, which recovers occluded regions by extracting deep spatial information at a higher semantic level. This autoencoder can get better details inferred from global self-attention and thus improves accuracy. The gist is to train the autoencoder to extract key-point information from the key patches that are manually masked in a self-supervised manner to simulate the occlusion in video streaming. To choose the patches that should be masked, we design a high-capacity learnable gate that can extract contrastive representation, i.e., distinguish important feature regions and background regions, to generate a binary mask by randomly choosing a part of feature patches. We also propose an end-to-end pipeline for training and inference, which can effectively reduce the dependency of annotated occluded datasets and can be further applied to other visual tasks. This pipeline can obtain a great computation saving with much fewer annotated datasets, and hold a higher runtime performance over the SOTA ViT methods.&lt;/p></description></item><item><title>Flexible Patch Skip for Real-time Visual Perception.</title><link>https://peilab.netlify.app/project/r2-lighweight-video-perception/</link><pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/r2-lighweight-video-perception/</guid><description>&lt;p>&lt;strong>Illustration:&lt;/strong> utilizing the temporal redundancy in video streams to construct efficient on-device video perception systems is a potential approach. We isolate the computation-saving challenge from video perception tasks and offer a task-independent acceleration approach that may be applied across a variety of runtime contexts. By separating acceleration and tasks, we plan to build novel quality-determining criteria for system design and provide an autonomous computation skipping approach to enable different video perception settings. We want to use a learnable gate in each convolution layer to decide which patches may be safely omitted without affecting model accuracy. The gate is optimized by a rigorous self-supervising approach that learns high-level semantics holistically to discern similarity and difference across frames.
+Such a small gate architecture is compatible with common edge devices, and it can be used as a plug-and-play module in CNN backbones to provide patch-skippable networks.&lt;/p></description></item><item><title>Efficient Federated Learning Framework on Heterogeneous Environment</title><link>https://peilab.netlify.app/project/efficient-federated-learning-framework/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/efficient-federated-learning-framework/</guid><description>&lt;h2 id="research-overview">Research Overview&lt;/h2>
+&lt;p>Our team aims to design promising solutions for future AI applications in Federated Learning (FL) systems, which enable distributed computing nodes to collaboratively train machine learning models without exposing their own data. We focus on solving the following challenging issues:&lt;/p>
+&lt;ul>
+&lt;li>Heterogeneous Hardware &amp;amp; Data&lt;/li>
+&lt;li>Resource constraints&lt;/li>
+&lt;li>Expensive communication&lt;/li>
+&lt;li>Lack of participants&lt;/li>
+&lt;/ul>
+&lt;h5 id="reference">Reference:&lt;/h5>
+&lt;p>[1]. Edge Learning: the Enabling Technology for Distributed Big Data Analytics in the Edge. &lt;em>ACM Computing Surveys (TC)&lt;/em>, &lt;u>JCR-Q1&lt;/u>&lt;/p>
+&lt;p>[2]. A Survey of Incentive Mechanism Design for Federated Learning. &lt;em>IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)&lt;/em>, &lt;u>JCR-Q1&lt;/u>&lt;/p></description></item><item><title>Next generation blockchain system</title><link>https://peilab.netlify.app/project/next-generation-blockchain-system/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/next-generation-blockchain-system/</guid><description>&lt;p>Our team aims at the next-generation blockchain system with scalability, security, privacy, and intelligence and our proposed architecture is composed of 6 layers as above. In the following, the details of these 6 layers will be explained from top to bottom.&lt;/p></description></item><item><title>Radiation-free Spine Reconstruction and Posture Analysis Techniques with 3D Imaging</title><link>https://peilab.netlify.app/project/radiation-free-spine-reconstruction-and-posture-analysis-techniques-with-3d-imaging/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/radiation-free-spine-reconstruction-and-posture-analysis-techniques-with-3d-imaging/</guid><description>&lt;p>Scoliosis is a sideways curvature of the spine that occurs most often during thegrowth spurt just before puberty. According to the survey and statistics of China Child Development Center, more than 20% teens have scoliosis. In addition to myopia and obesity, scoliosis has become the third biggest killer of youth health. According to some relevant survey data, 60% of teenagers have different degrees of posture problems. Early prevention and early treatment is the key of adolescent posture problems. Children who have mild scoliosis need to be monitored closely, usually with X-rays,to see if the curve is getting worse.&lt;/p>
+&lt;p>At present, the mainstream screening method is still manual detection, which has require patient naturally stands and bends at 90 degrees and the doctor makes a judgment based on the spinal line and morphological changes. However, such method has low efficiency and low accuracy and facing the severe shortage of physiotherapists.&lt;/p>
+&lt;p>Meanwhile, during the COVID-19 epidemic, to help more people with rehabilitation needs realize remote screening and tracking and real-time AI monitoring of sports rehabilitation at home. A mobile-based posture screening algorithm and real-time exercise rehabilitation tracking algorithm are proposed.&lt;/p>
+&lt;p>In this project, we will design a 3D back image analysis method using commercial RGB-D to achieve low-cost, non-radiation, and sufficient accuracy of spine analysis and scoliosis screening. However, the analysis of the back image based on RGB-D is not simple and has the following three major challenges: (1) The back of the human body is an irregular curved surface, which is difficult to describe with some parametric models. (2) The point cloud image measured by commercial sensors is relatively sparse and has strong noise, and it is difficult to directly obtain the shape of the back. (3) The relationship between the back image and the spine shape is fuzzy.&lt;/p>
+&lt;figure id="figure-hardware-design-and-compoments">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Hardware Design and Compoments"
+src="https://peilab.netlify.app/project/radiation-free-spine-reconstruction-and-posture-analysis-techniques-with-3d-imaging/picture1.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Hardware Design and Compoments
+&lt;/figcaption>&lt;/figure>
+&lt;p>To address these challenges, we propose an automated all-in-one machine that performs comprehensive and accurate analysis, evaluation, and diagnosis of human posture: analysis items are in addition to common body dimensions. It also includes three-dimensional reconstruction of human spine based on infrared, foot pressure analysis, XO legs, pelvic deformation analysis and other functions; it is a set of comprehensive posture evaluation system with clinical significance in the real sense.&lt;/p>
+&lt;figure id="figure-posture-analysis-algorithms">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Posture analysis algorithms"
+src="https://peilab.netlify.app/project/radiation-free-spine-reconstruction-and-posture-analysis-techniques-with-3d-imaging/picture2.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Posture analysis algorithms
+&lt;/figcaption>&lt;/figure>
+&lt;p>We also develop a Dr. Body APP, which uses AI algorithm to screen scoliosis, XO legs, high and low shoulders and other unhealthy postures through the photos of the back of the human body of the mobile phone for screening and severity classification; the use of a single photo of the human body for three-dimensional reconstruction of the human body for posture analysis and dimension measurement; Provide users with a variety of sports rehabilitation online courses, and record sports videos for intelligent action correction and analysis.&lt;/p>
+&lt;figure id="figure-app-record-user-data-and-provide-personalized-follow-up-service">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="App record user data and provide personalized follow-up service"
+src="https://peilab.netlify.app/project/radiation-free-spine-reconstruction-and-posture-analysis-techniques-with-3d-imaging/picture3.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+App record user data and provide personalized follow-up service
+&lt;/figcaption>&lt;/figure>
+&lt;p>&lt;strong>Innovation competition awards:&lt;/strong>&lt;/p>
+&lt;p>First Prize of Hong Kong University Student Innovation and Entrepreneurship Competition (2020); Hong Kong Social Enterprise Competition (HKSEC2019) Intellectual Property Ambassador Award; &amp;ldquo;Weining Cup&amp;rdquo; International AI Medical Challenge First Prize (2019), et.&lt;/p></description></item><item><title>Edge AI in smart city</title><link>https://peilab.netlify.app/project/smart-city-1/</link><pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/smart-city-1/</guid><description>&lt;h2 id="research-overview">Research Overview&lt;/h2>
+&lt;p>Our team aims to design promising solutions for future AI applications based on edge intelligent technologies, which can empower construction, public health, environment, transportation and other industries, and promote the upgrading of urban intelligence.&lt;/p>
+&lt;h3 id="covid-19-forward-forecast-and-policy-evaluation-platform">COVID-19 Forward Forecast and Policy Evaluation Platform&lt;/h3>
+&lt;figure id="figure-covid-19-forward-forecast-and-policy-evaluation-platform">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="COVID-19 Forward Forecast and Policy Evaluation Platform" srcset="
+/project/smart-city-1/1_hue6e18c6b2fe66b3307a241f7e908f255_713743_52af6372fcb575313d581be3cb2d9495.png 400w,
+/project/smart-city-1/1_hue6e18c6b2fe66b3307a241f7e908f255_713743_ec24601ffd84a573778d1949162b28e5.png 760w,
+/project/smart-city-1/1_hue6e18c6b2fe66b3307a241f7e908f255_713743_1200x1200_fit_lanczos_2.png 1200w"
+src="https://peilab.netlify.app/project/smart-city-1/1_hue6e18c6b2fe66b3307a241f7e908f255_713743_52af6372fcb575313d581be3cb2d9495.png"
+width="760"
+height="277"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+COVID-19 Forward Forecast and Policy Evaluation Platform
+&lt;/figcaption>&lt;/figure>
+&lt;h3 id="intelligent-construction-site-safety-detection-system">Intelligent construction site safety detection system&lt;/h3>
+&lt;figure id="figure-intelligent-construction-site-safety-detection-system">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Intelligent construction site safety detection system" srcset="
+/project/smart-city-1/2_hu5640ff216837340e12aea6f268fe70bd_594540_0a7ba3d609337acf9fc1a2fddd67d8ed.png 400w,
+/project/smart-city-1/2_hu5640ff216837340e12aea6f268fe70bd_594540_c213c3f1a001d5f3839535b0168f13be.png 760w,
+/project/smart-city-1/2_hu5640ff216837340e12aea6f268fe70bd_594540_1200x1200_fit_lanczos_2.png 1200w"
+src="https://peilab.netlify.app/project/smart-city-1/2_hu5640ff216837340e12aea6f268fe70bd_594540_0a7ba3d609337acf9fc1a2fddd67d8ed.png"
+width="760"
+height="247"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Intelligent construction site safety detection system
+&lt;/figcaption>&lt;/figure>
+&lt;h3 id="low-cost-air-quality-testing-technology">Low-cost air quality testing technology&lt;/h3>
+&lt;figure id="figure-low-cost-air-quality-testing-technology">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Low-cost air quality testing technology" srcset="
+/project/smart-city-1/3_hu8fb9c9b186970428cc160450f675ce30_670851_825763948e640999cfa515b3cced4ad3.png 400w,
+/project/smart-city-1/3_hu8fb9c9b186970428cc160450f675ce30_670851_40ac7fa393f5c6e15b48e020c5c75e56.png 760w,
+/project/smart-city-1/3_hu8fb9c9b186970428cc160450f675ce30_670851_1200x1200_fit_lanczos_2.png 1200w"
+src="https://peilab.netlify.app/project/smart-city-1/3_hu8fb9c9b186970428cc160450f675ce30_670851_825763948e640999cfa515b3cced4ad3.png"
+width="760"
+height="215"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Low-cost air quality testing technology
+&lt;/figcaption>&lt;/figure></description></item><item><title>Edge Application Layer in Blockchain-empowered Edge Learning</title><link>https://peilab.netlify.app/project/edge-application-layer/</link><pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/edge-application-layer/</guid><description>&lt;p>Blockchain-empowered edge learning is a novel distributed learning architecture to dispense with a dedicated server in traditional distributed learning and provide trustworthy training for edge devices. It is based on a blockchain platform in which the edge devices for distributed learning participate in the consensus and commit and receive transactions about the learning process including edge data collection, edge model weights, training results, etc. However, existing blockchains cannot be directly used for swarm learning because their consensus protocols often commit transactions in blocks, each of which requires minutes, while swarm learning produces massive data about the learning processes in real-time. Moreover, the edge devices are often unable to meet the hardware requirement of the existing blockchain consensus such as the computation-intensive mining in Proof-of-Work (PoW). Therefore, we are going to design a streaming blockchain system and smart contract engine for swarm learning.&lt;/p></description></item><item><title>Heterogeneous Data \&amp; Resource Constraints- Batch Size Adaptation</title><link>https://peilab.netlify.app/project/batch-size-adaptation/</link><pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/batch-size-adaptation/</guid><description>&lt;!-- ### **1. Heterogeneous Data &amp; Resource Constraints: Batch Size Adaptation** -->
+&lt;h3 id="introduction">Introduction&lt;/h3>
+&lt;p>Federated learning (FL) has been widely recognized as a promising approach by enabling individual participants to cooperatively train a global model without exposing their own data. One of the key challenges in FL is that data distributions in different participants are usually non-independently and identically distributed (non-IID). For example, different areas can have very different disease distributions. Besides, the participants are usually resource-constrained with limited computational power, storage capacity, transmission range and battery. It is essential to design novel training framework to address above challenges. However, existing approaches either consider the optimization of server-side aggregation or focus on improving the client-side training efficiency, which only lead to sub-optimal performance. Therefore, we are going to investigate a new method to improve training efficiency of each client from the perspective of whole training process under the circumstances of non-IID data. In our proposed framework, both the local training and global aggregation are optimized by using a deep reinforcement learning agent to determine the batch size of each client according to the current state in each communication round.&lt;/p>
+&lt;h5 id="reference">Reference:&lt;/h5>
+&lt;p>[3]. Adaptive Federated Learning on Non-IID Data with Resource Constraint. &lt;em>IEEE Transactions on Computers (TC)&lt;/em>, &lt;u>CCF-A&lt;/u>&lt;/p></description></item><item><title>Heterogeneous Data \&amp; Expensive Communication- Layer-wised Aggregation</title><link>https://peilab.netlify.app/project/layer-wised-aggregation/</link><pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/layer-wised-aggregation/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Instead of collaboratively train only one global for all clients, personalized federated learning (pFL) mechanisms are proposed to allow each client to train a customized model to adapt to their own data distribution. Researches over the past few years have applied the weighted aggregation manner to produce personalized models, where the weights are determined by calibrating the distance of the entire model parameters or loss values, and have yet to consider the layer-level impacts to the aggregation process, leading to lagged model convergence and inadequate personalization over non-IID datasets. We design a novel pFL training framework dubbed Layer-wised Personalized Federated learning (pFedLA) that can discern the importance of each layer from different clients, and thus is able to optimize the personalized model aggregation for clients with heterogeneous data.&lt;/p>
+&lt;!--
+&lt;figure id="figure-workflow-of-the-layer-wised-aggregation-method-4-we-use-hypernetwork-to-identify-the-mutual-contribution-factors-at-layer-granularity">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Workflow of the Layer-wised aggregation method [4]. We use hypernetwork to identify the mutual contribution factors at layer granularity." srcset="
+/project/layer-wised-aggregation/Layer-wised-Aggregation_hu880023bd7f685fb513ef31bfcd1fbd47_869552_3b7eeae491a3ad768632e1f8c062baad.png 400w,
+/project/layer-wised-aggregation/Layer-wised-Aggregation_hu880023bd7f685fb513ef31bfcd1fbd47_869552_0efa1fa3bd9675bc60ec652c7578af87.png 760w,
+/project/layer-wised-aggregation/Layer-wised-Aggregation_hu880023bd7f685fb513ef31bfcd1fbd47_869552_1200x1200_fit_lanczos_2.png 1200w"
+src="https://peilab.netlify.app/project/layer-wised-aggregation/Layer-wised-Aggregation_hu880023bd7f685fb513ef31bfcd1fbd47_869552_3b7eeae491a3ad768632e1f8c062baad.png"
+width="760"
+height="319"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Workflow of the Layer-wised aggregation method [4]. We use hypernetwork to identify the mutual contribution factors at layer granularity.
+&lt;/figcaption>&lt;/figure> -->
+&lt;h5 id="reference">Reference:&lt;/h5>
+&lt;p>[4]. Layer-wised Model Aggregation for Personalized Federated Learning. &lt;em>CVPR&lt;/em>, &lt;u>CCF-A&lt;/u>&lt;/p></description></item><item><title>Semantic Query and Index Layer in Semantic Blockchain Database</title><link>https://peilab.netlify.app/project/semantic-blockchain-database/</link><pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/semantic-blockchain-database/</guid><description>&lt;h2 id="background">Background&lt;/h2>
+&lt;p>Blockchain database is a new direction that constructs index on top of blockchain to provide rich query functionalities. The existing works are either insecure because the query process separates from the blockchain consensus, or inscalable because all the data needs to be stored in the block. Therefore, we propose an authenticated semantic database layer for blockchains. We design a hybrid on/off chain blockchain storage architecture in which the majority of blockchain storage is offloaded to the off-chain storage and a novel index structure named Merkle Semantic Trie (MST) is designed to be a secure and semantic bridge between on- and off-chain. Based on MST, MSTDB provides a variety of semantic query functions including multi-keyword query, range query, Top-K query, and cross-chain query. Besides, to improve the performance further, we design some index compression and query preprocessing techniques for our semantic database layer.&lt;/p>
+&lt;h2 id="reference">Reference&lt;/h2>
+&lt;p>An Efficient Query Scheme for Hybrid Storage Blockchains based on Merkle Semantic Trie, Best Paper Award Runner Up received in SRDS 2020 (CCF-B).&lt;/p></description></item><item><title>Heterogeneous Hardware \&amp; Data- Parameterized Knowledge Transfer</title><link>https://peilab.netlify.app/project/parameterized-knowledge-transfer/</link><pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/parameterized-knowledge-transfer/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Most existing pFL methods rely on model parameters aggregation at the server side, which require all models to have the same structure and size. Such constraints would prevent status quo pFL methods from further application in practical scenarios, where clients are often willing to own unique models, i.e., with customized neural architectures to adapt to heterogeneous capacities in computation, communication and storage space, etc. We seek to develop a novel training framework that can accommodate heterogeneous model structures for each client and achieve personalized knowledge transfer in each FL training round. Specifically, the aggregation procedure in original pFL is formulated into a personalized group knowledge transfer training algorithm, which enable each client to maintain a personalized soft prediction at the server side to guide the others' local training.&lt;/p>
+&lt;!--
+&lt;figure id="figure-our-work-parameterized-knowledge-transfer-for-personalized-federated-learning-5">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Our work: Parameterized Knowledge Transfer for Personalized Federated Learning [5]." srcset="
+/project/parameterized-knowledge-transfer/parameterized-%20knowledge-transfer-2_hu80670285de7014040b5cc4a7b6a90f87_246328_fe08a9a2e2c6f3e5652c9cb982d584b6.png 400w,
+/project/parameterized-knowledge-transfer/parameterized-%20knowledge-transfer-2_hu80670285de7014040b5cc4a7b6a90f87_246328_caf0f4e56d5a179788679abba2ea4e3b.png 760w,
+/project/parameterized-knowledge-transfer/parameterized-%20knowledge-transfer-2_hu80670285de7014040b5cc4a7b6a90f87_246328_1200x1200_fit_lanczos_2.png 1200w"
+src="https://peilab.netlify.app/project/parameterized-knowledge-transfer/parameterized-%20knowledge-transfer-2_hu80670285de7014040b5cc4a7b6a90f87_246328_fe08a9a2e2c6f3e5652c9cb982d584b6.png"
+width="760"
+height="360"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Our work: Parameterized Knowledge Transfer for Personalized Federated Learning [5].
+&lt;/figcaption>&lt;/figure> -->
+&lt;h5 id="reference">Reference:&lt;/h5>
+&lt;p>[5]. Parameterized Knowledge Transfer for Personalized Federated Learning. &lt;em>NeurIPS&lt;/em>, &lt;u>CCF-A&lt;/u>&lt;/p></description></item><item><title>Intelligent Consensus Layer in Learning-Driven Dynamic Architecture</title><link>https://peilab.netlify.app/project/intelligent-consensus-layer/</link><pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/intelligent-consensus-layer/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Most existing blockchain systems adopt a static policy that cannot efciently deal with the dynamic environment in the blockchain system, i.e., joining and leaving of nodes, and malicious attack. Therefore, we propose a novel dynamic sharding-based blockchain framework to achieve a good balance between performance and security without compromising scalability under a dynamic environment. For the framework, a deep reinforcement learning (DRL)-based consensus is designed to acquire optimal sharding policies in a series of dynamic and high-dimensional environment states.&lt;/p>
+&lt;h2 id="reference">Reference&lt;/h2>
+&lt;p>SkyChain: A Deep Reinforcement Learning-Empowered Dynamic Blockchain Sharding System, Best Paper Award Runner Up received in ICPP 2020 (CCF-B).&lt;/p></description></item><item><title>Lack of participants- Incentive Mechanism Design for Federated Learning</title><link>https://peilab.netlify.app/project/incentive-mechanism-design/</link><pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/incentive-mechanism-design/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>The main objective of incentive is to motive data owners to participate in FL. A few of works have designed incentive mechanisms for FL, but these mechanisms only consider myopia optimization on resource consumption, which results in the lack of learning algorithm performance guarantee and long-term sustainability. We propose Chiron, an incentive-driven long-term mechanism for edge learning based on hierarchical deep reinforcement learning. First, our optimization goal combines learning-algorithms metric (i.e., model accuracy) with system metric (i.e., learning time, and resource consumption), which can improve edge learning quality under a fixed training budget. Second, we present a two-layer H-DRL design with exterior and inner agents to achieve both long-term and short-term optimization for edge learning, respectively.&lt;/p>
+&lt;!--
+&lt;figure id="figure-our-work-hierarchical-reinforcement-learning-for-incentive-mechanism-in-federated-learning-6">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Our work: Hierarchical Reinforcement Learning for Incentive mechanism in Federated Learning [6]." srcset="
+/project/incentive-mechanism-design/incentive-2_hu9a90b143aeb36504de2827d321700749_735262_5ac5a158bc8e5a039d2e86ec7618167c.png 400w,
+/project/incentive-mechanism-design/incentive-2_hu9a90b143aeb36504de2827d321700749_735262_44d055f3be532856e2ccc744f59570f2.png 760w,
+/project/incentive-mechanism-design/incentive-2_hu9a90b143aeb36504de2827d321700749_735262_1200x1200_fit_lanczos_2.png 1200w"
+src="https://peilab.netlify.app/project/incentive-mechanism-design/incentive-2_hu9a90b143aeb36504de2827d321700749_735262_5ac5a158bc8e5a039d2e86ec7618167c.png"
+width="760"
+height="260"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Our work: Hierarchical Reinforcement Learning for Incentive mechanism in Federated Learning [6].
+&lt;/figcaption>&lt;/figure> -->
+&lt;h5 id="reference">Reference:&lt;/h5>
+&lt;p>[6]. Incentive-Driven Long-term Optimization for Edge Learning by Hierarchical Reinforcement Mechanism. &lt;em>ICDCS&lt;/em>, &lt;u>CCF-B&lt;/u>&lt;/p></description></item><item><title>Layered Sharding Architecture for Blockchain</title><link>https://peilab.netlify.app/project/scalable-consensus-layer/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/scalable-consensus-layer/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>As a promising solution to blockchain scalability, sharding divides blockchain nodes into small groups called shards, splitting the workload. Existing works for sharding, however, are limited by cross-shard transactions, since they need to split each cross-shard transaction into multiple sub-transactions, each of which costs a consensus round to commit. To deal with the serious performance degradation brought by cross-shard transactions. Therefore, we propose a novel layered sharding architecture for blockchain and a cooperation-based layered sharding consensus. The basic idea is to allow shards to overlap, rather than isolating them completely, so that some nodes can locate in more than one shard. For cross-shard transactions, nodes located in the overlap of these shards can cooperative to verify, process and commit them directly and efficiently.&lt;/p>
+&lt;h2 id="reference">Reference&lt;/h2>
+&lt;p>Pyramid: A Layered Sharding Blockchain System, INFOCOM 2021 (CCF-A).&lt;/p></description></item><item><title>Sustainable Off-chain Payment Channel Network</title><link>https://peilab.netlify.app/project/fast-payment-layer/</link><pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/fast-payment-layer/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Payment channel network (PCN) is the most promising off-chain technologies to support massive micro payments for blockchain. The technology has been deployed in a number of blockchains including Bitcoin and Ethereum. For example, Lightning Network, a PCN built on top of Bitcoin, is currently able to provide a network capacity of about 200 million dollars, which is doubling every year. However, the existing PCN faces the challenge of sustainability, i.e., due to the imbalanced transfer in channels, the balance in one direction of channels gradually becomes exhausted, which makes the success ratio of payments in PCN suffers a major setback. Therefore, for the fast payment layer in our system, we propose a sustainable PCN based on a new idea of asynchronous agreement and design a new rebalancing protocol which can constantly balance the network without channel freezing.&lt;/p>
+&lt;h2 id="reference">Reference&lt;/h2>
+&lt;p>CYCLE: Sustainable Off-Chain Payment Channel Network with Asynchronous Rebalancing, DSN 2022 (CCF-B).&lt;/p></description></item><item><title>Hybrid On-/Off-Chain Distributed Storage</title><link>https://peilab.netlify.app/project/mass-storage-layer/</link><pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/mass-storage-layer/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Personal data produced from widely emerged cyberspace activities are expected to promote information dissemination and engagement, or even make business intelligence more powerful. However, the recent increase in social media incidents of illegal surveillance and data breaches raises questions about the current data ownership model, in which centralized applications collect and control large amounts of user data. We present SocialChain, which is a decentralized online data storage and sharing system based on blockchain that decouples user data and applications to return data ownership to the user. We adopt Personal Data Store to extend off-chain storage for the online data, set up an identity establishment mechanism that can support WebID-based authentication functions using a unique identity assignment (i.e., WebID) as well as certificateless cryptography, and design a general framework that leverages smart contracts to help securely store and share social data in an automated manner.&lt;/p>
+&lt;h2 id="reference">Reference&lt;/h2>
+&lt;p>SocialChain: Decoupling Social Data and Applications to Return Your Data Ownership, IEEE Transactions on Services Computing (CCF-B, JCR Q1), 2021.&lt;/p></description></item><item><title>Anti-Occlusion Human Pose Estimation for Scoliosis Rehabilitation</title><link>https://peilab.netlify.app/project/anti-occlusion-human-pose-estimation-for-scoliosis-rehabilitation/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/anti-occlusion-human-pose-estimation-for-scoliosis-rehabilitation/</guid><description>&lt;p>Physiotherapeutic scoliosis-specific exercises (PSSE) have been proved to be effective in scoliosis rehabilitation. PSSE consist of a program of curve-specific exercise protocols which are individually adapted to a patients’ curve site, magnitude, and clinical characteristics. Specific PSSE are used to help relieve scoliosis symptoms. PSSE is not generalized physiotherapy exercises which are generic exercises usually consisting of low impact stretching and strengthening activities like yoga, Pilates and the Alexander technique but especially designed exercise for scoliosis patients that requires professional guidance. Wrong movement may cause severe damage to the spine again.&lt;/p>
+&lt;p>During the COVID-19 pandemic, Exercise at specific medical centres with crowd around is risky. Smart phone, however, is now prevalence all over the world. Almost every smart phone contains at least one 2D camera that can capture video stream. If we can use this device to track patients’ movement, it may be way more convenient for doctors to guide the patients remotely.&lt;/p>
+&lt;p>Human pose estimation is one of the best matches of tracking patient movement at home.&lt;/p>
+&lt;p>Recent years have witnessed learning-based human pose estimation getting popular in more scenarios with occlusions, where invisible areas for perception objects significantly affect accuracy. Existing methods mainly use convolutional neural networks as the backbone and get limited local features to recover the occluded part. Such an anti-occlusion pipeline often suffers from the challenges of self-occlusion scenery, where similar parts of occluders and occludees are ambiguous. In this case, we need to design a masked visual autoencoder for image processing and video streaming, which recovers occluded regions by extracting deep spatial information at a higher semantic level. This autoencoder can get better details inferred from global self-attention and thus improves accuracy. The gist is to train the autoencoder to extract key-point information from the joint tokens that are manually masked in a self-supervised manner to simulate the occlusion in video streaming. To use dataset more efficiently and extract more information from a single image, we generate several different positive samples simulating more occluded cases by randomly mask more patches in joint tokens. We also propose an end-to-end pipeline for training and inference, which can effectively reduce the dependency of annotated occluded datasets and can be further applied to other visual tasks. This pipeline can obtain a great computation saving with much fewer annotated datasets and hold a higher runtime performance over the SOTA ViT methods.&lt;/p></description></item><item><title>Next Generation AI Video Analytics Detection System on Driving Behavior and Mental Factors</title><link>https://peilab.netlify.app/project/next-generation-ai-video-analytics/</link><pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/next-generation-ai-video-analytics/</guid><description>&lt;p>Video-based abnormal driving behavior and mental detection is becoming more and more popular. The key goal is to ensure the safety of drivers and passengers in the vehicle, and it is an essential step to realize autonomous driving at this stage.&lt;/p>
+&lt;h2 id="proposed-solution">Proposed Solution&lt;/h2>
+&lt;ul>
+&lt;li>Cognitive science, human facial expression, and eye tracking with AI Video Analytics Detection System.&lt;/li>
+&lt;li>To build up an AI model for evaluating the driving mental factors and driving behavior of driver to provide the alert signal for human-computer interaction.&lt;/li>
+&lt;li>Quantify Similarity of individual data to the Common Patterns Using Machine Learning Methods (i.e., log likelihoods of data being generated by models).&lt;/li>
+&lt;/ul>
+&lt;h2 id="methodology">Methodology&lt;/h2>
+&lt;ol>
+&lt;li>Follow the previous research – In Psychology, HKU perform power analysis to determine the sample size (number of participants) required for detecting an effect, it have multiple predictors.&lt;/li>
+&lt;li>Mental factors features were identified in the previous research assuming a medium effect size (alpha 0.05 and 80% Power).&lt;/li>
+&lt;li>Big data collection in this project – Taxi Driver (at least 500 hours road driving video record) (e.g.: The Taxi driver who have been deducted the driving marks, in traffic jam situation).&lt;/li>
+&lt;li>Feature labelling - facial expression, texture, eye tracking, facial muscle change.&lt;/li>
+&lt;li>Train up the database.&lt;/li>
+&lt;/ol>
+&lt;h2 id="incentive-factors">Incentive Factors&lt;/h2>
+&lt;ul>
+&lt;li>Fanling Taxi Company (Mobile Shop Group Limited) supports this project, the camera can be installed in the Taxi to capture the real data (e.g.: angry or suddenly emotion change etc.) for analysis.&lt;/li>
+&lt;li>Mr. Wong (Director of Fanling Taxi Company) stated that his team want to join the Taxi Service Commendations Scheme and seek the technology to improve their quality of service. He and his team are to thirst for joining the trial.&lt;/li>
+&lt;/ul></description></item><item><title>Emergency Risk Management in Smart City</title><link>https://peilab.netlify.app/project/emergency-risk-management-in-smart-city/</link><pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/emergency-risk-management-in-smart-city/</guid><description>&lt;p>With the emergence and drastic improvement of mobile devices (e.g., phones, tablets, drones, and autonomous vehicles), we are now witnessing an exciting revolution of the digital city. Specifically, with the popularity of 5G networks, video-sharing and live-streaming applications (e.g., TikTok, BIGO, and Twitch) are becoming increasingly widespread. Besides allowing individuals to share life experiences and moments with their followers, video-based applications could also be a promising tool for sensing complex and dynamic urban environments.&lt;/p>
+&lt;p>With the development of AI-empowered video processing techniques, the ubiquitous mobile camera network has the potential to go beyond the video-surveillance system to capture various risks in the complex and dynamic city environment. However, the edge device has limited computation resource compared to the desktop GPU and CPU, which brings new challenge for optimizing AI algorithm for executing on edge devices.&lt;/p>
+&lt;figure id="figure-resource-constraint-mobile-devices">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Resource-constraint Mobile Devices"
+src="https://peilab.netlify.app/project/emergency-risk-management-in-smart-city/picture1.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Resource-constraint Mobile Devices
+&lt;/figcaption>&lt;/figure>
+&lt;p>Another major challenge is the heterogeneous of edge hardware. The AI models need to adapt to heterogeneous edge devices with significant ram and computation difference. The last challenge is view limitation. Since each edge device usually has a small field of view, it is very hard to capture an integrated scenario in the smart city. To support practical real-time risk detection, we must joint use multiple cameras to obtain abundant regional data.&lt;/p>
+&lt;figure id="figure-heterogeneous-mobile-devices">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Heterogeneous Mobile Devices"
+src="https://peilab.netlify.app/project/emergency-risk-management-in-smart-city/picture2.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Heterogeneous Mobile Devices
+&lt;/figcaption>&lt;/figure>
+&lt;p>To solve the above challenges, we proposed a crowdsourced mobile video analytics framework for emerging real-time risk management in smart cities. Specifically, our framework consists of three components, including city digital twins, collaborative learning mechanism and real-time risk management.&lt;/p>
+&lt;figure id="figure-a-crowdsourced-mobile-video-analytics-framework">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="A Crowdsourced Mobile Video Analytics Framework"
+src="https://peilab.netlify.app/project/emergency-risk-management-in-smart-city/picture3.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+A Crowdsourced Mobile Video Analytics Framework
+&lt;/figcaption>&lt;/figure>
+&lt;p>First, the digital twin is a replica of a physical word, and this pairing of the digital and physical worlds allows analysis of data and monitoring of systems to head off problems before they even occur.&lt;/p>
+&lt;figure id="figure-interactive-digital-twins-for-smart-city">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Interactive Digital Twins for Smart City"
+src="https://peilab.netlify.app/project/emergency-risk-management-in-smart-city/picture4.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Interactive Digital Twins for Smart City
+&lt;/figcaption>&lt;/figure>
+&lt;p>Second, the high-performance collaborative learning mechanism can provide a fast and robust computation capacity to support the real-time requests of the big data analytics in smart cities.&lt;/p>
+&lt;figure id="figure-high-performance-collaborative-learning">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="High Performance Collaborative Learning"
+src="https://peilab.netlify.app/project/emergency-risk-management-in-smart-city/picture5.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+High Performance Collaborative Learning
+&lt;/figcaption>&lt;/figure>
+&lt;p>Third, derived from the above two techniques, we develop a real-time risk management platform for proactive risk detection and self-defending emergency response.&lt;/p>
+&lt;figure id="figure-real-time-risk-management-platform">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Real –time Risk Management Platform"
+src="https://peilab.netlify.app/project/emergency-risk-management-in-smart-city/picture6.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Real –time Risk Management Platform
+&lt;/figcaption>&lt;/figure>
+&lt;p>The research team will conduct in-depth cooperation with professors from the Department of Real Estate and the Department of Electronic and Information Engineering to promote in-depth research on the security of construction sites based on risk management technology based on edge intelligence.&lt;/p></description></item><item><title>New Architectures and Methodologies for High Performance Sharding Blockchain</title><link>https://peilab.netlify.app/project/new-architectures-and-methodologies-for-high-performance-sharding-blockchain/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/new-architectures-and-methodologies-for-high-performance-sharding-blockchain/</guid><description>&lt;p>Blockchain draws tremendous attention from academia and industry, since it can provide distributed ledgers with data transparency, integrity, and immutability to untrusted parties for various decentralized applications. However, it is still challenging for blockchain to deal with large-scale networks because of the limited scalability of the blockchain systems. Sharding is a novel blockchain architecture that is proved to significantly improve the scalability of blockchain. Its main idea is to divide blockchain nodes into small groups called shards, which can handle transactions in parallel. To exploit the shortages of blockchain sharding for real application environment, we conduct two research projects as follows.&lt;/p>
+&lt;p>First, to deal with the serious performance degradation brought by cross-shard transactions, we propose a novel layered sharding architecture for blockchain and a cooperation-based layered sharding consensus. The basic idea is to allow shards to overlap, rather than isolating them completely, so that some nodes can locate in more than one shard. For cross-shard transactions, nodes located in the overlap of these shards can cooperative to verify, process and commit them directly and efficiently.&lt;/p>
+&lt;figure id="figure-blockchain-and-training">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Blockchain and Training"
+src="https://peilab.netlify.app/project/new-architectures-and-methodologies-for-high-performance-sharding-blockchain/picture1.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Blockchain and Training
+&lt;/figcaption>&lt;/figure>
+&lt;p>Second, most existing blockchain sharding systems adopt a static sharding policy that cannot efciently deal with the dynamic environment in the blockchain system, i.e., joining and leaving of nodes, and malicious attack. We propose a novel dynamic sharding-based blockchain framework to achieve a good balance between performance and security without compromising scalability under a dynamic environment. For the framework, a deep reinforcement learning (DRL)-based consensus is designed to acquire optimal sharding policies in a series of dynamic and high-dimensional environment states.&lt;/p></description></item><item><title>Federated Learning in Resourced Constrained Mobile Edge Network</title><link>https://peilab.netlify.app/project/federated-learning-in-resourced-constrained-mobile-edge-network/</link><pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate><guid>https://peilab.netlify.app/project/federated-learning-in-resourced-constrained-mobile-edge-network/</guid><description>&lt;p>Federated learning (FL) has been proposed as a promising solution for future AI applications with strong privacy protection. It enables distributed computing nodes to collaboratively train models without exposing their own data. In this research topic, we focus on overcoming the heterogeneity challenge (e.g., data heterogeneity, model heterogeneity) in FL.&lt;/p>
+&lt;figure id="figure-collaborative-learning">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Collaborative Learning"
+src="https://peilab.netlify.app/project/federated-learning-in-resourced-constrained-mobile-edge-network/picture1.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Collaborative Learning
+&lt;/figcaption>&lt;/figure>
+&lt;p>Efficient Federated Learning on Heterogeneous Data: from the perspective of distribution characteristics of training data, FL can be categorized into two types, i.e., horizontal federated learning (HFL) and vertical federated learning (VFL). In HFL, we aim to propose efficient and robust learning scheme in resource-constrained computing environment by training a reinforcement learning model to adaptively tune the systematical parameters (e.g., the batch size in each client). Moreover, we explore the unbalanced features in VFL, the fundamental theories and algorithms are proposed to improve the learning efficiency and accuracy.&lt;/p>
+&lt;figure id="figure-knowledge-distillation">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Knowledge Distillation"
+src="https://peilab.netlify.app/project/federated-learning-in-resourced-constrained-mobile-edge-network/picture2.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Knowledge Distillation
+&lt;/figcaption>&lt;/figure>
+&lt;p>The Optimization of Federated Learning with Heterogenous Models: in this topic, we make effort on developing flexible and novel training framework by combining other techniques with FL, including (1) Knowledge Distillation (KD), (2) Generative Adversarial Networks (GAN), (3) Neural Architecture Search (NAS), (4) Meta Learning, etc. Furthermore, we investigate the personalization in FL, which is also a good way to handle the above challenges.&lt;/p></description></item></channel></rss>
