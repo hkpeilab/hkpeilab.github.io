@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://peilab.netlify.app/sitemap.xml
+Sitemap: https://hkpeilab.netlify.app/sitemap.xml
