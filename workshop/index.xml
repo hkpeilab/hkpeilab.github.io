@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workshops | PEILab</title><link>https://hkpeilab.netlify.app/workshop/</link><atom:link href="https://hkpeilab.netlify.app/workshop/index.xml" rel="self" type="application/rss+xml"/><description>Workshops</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © The Pervasive Edge Intelligence Laboratory Reserved. 2024</copyright><image><url>https://hkpeilab.netlify.app/media/logo_hu9de44823e73c1111f923ff26b68a2483_254409_300x300_fit_lanczos_2.png</url><title>Workshops</title><link>https://hkpeilab.netlify.app/workshop/</link></image><item><title>International Workshop on Edge Intelligence and Future Network- towards Ubiquitous Connectivity</title><link>https://hkpeilab.netlify.app/activities/international-workshop-on-edge-intelligence-and-future-network-towards-ubiquitous-connectivity/</link><pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate><guid>https://hkpeilab.netlify.app/activities/international-workshop-on-edge-intelligence-and-future-network-towards-ubiquitous-connectivity/</guid><description>&lt;p>&lt;img src="feature.png" alt="">&lt;/p>
+&lt;h2 id="organizing-committee">Organizing Committee&lt;/h2>
+&lt;h3 id="honorary-chair">Honorary Chair&lt;/h3>
+&lt;p>Xuemin (Sherman) Shen&lt;/p>
+&lt;h3 id="general-chairs">General Chairs&lt;/h3>
+&lt;p>Song Guo&lt;br>
+Qifeng Liu&lt;/p>
+&lt;h2 id="program">Program&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Time&lt;/th>
+&lt;th style="text-align:left">Session&lt;/th>
+&lt;th style="text-align:left">Speaker&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">08:45 - 09:00&lt;/td>
+&lt;td style="text-align:left">Opening Session&lt;/td>
+&lt;td style="text-align:left">Song Guo&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">09:00 - 09:45&lt;/td>
+&lt;td style="text-align:left">&lt;a href="talk1">Talk 1: Computation Offloading and Task Scheduling onthe Network Edge&lt;/a>&lt;/td>
+&lt;td style="text-align:left">Xuemin (Sherman) Shen&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">09:45 - 10:30&lt;/td>
+&lt;td style="text-align:left">&lt;a href="talk2">Talk 2: Vehicle as a Service (VaaS): How to Leverage Vehicles to Beef Up the Edge&lt;/a>&lt;/td>
+&lt;td style="text-align:left">Yuguang (Michael) Fang&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">10:30 - 11:15&lt;/td>
+&lt;td style="text-align:left">&lt;a href="talk3">Talk 3: Task Scheduling for Multi-Access Edge Computing in IRS-Aided Vehicular Networks&lt;/a>&lt;/td>
+&lt;td style="text-align:left">Nei Kato&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">11:15 - 12:00&lt;/td>
+&lt;td style="text-align:left">&lt;a href="talk4">Talk 4: AIoT as a Service – Framework, Opportunities, and Challenges&lt;/a>&lt;/td>
+&lt;td style="text-align:left">Victor C.M. Leung&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">12:00 - 14:00&lt;/td>
+&lt;td style="text-align:left">Lunch Break&lt;/td>
+&lt;td style="text-align:left">N/A&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">14:00 - 14:45&lt;/td>
+&lt;td style="text-align:left">&lt;a href="talk5">Talk 5: Edge-AI and Mission-critical Industrial Applications&lt;/a>&lt;/td>
+&lt;td style="text-align:left">Albert Y. Zomaya&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">14:45 - 15:30&lt;/td>
+&lt;td style="text-align:left">&lt;a href="talk6">Talk 6: 区块链 – 零信任之上的共识&lt;/a>&lt;/td>
+&lt;td style="text-align:left">Xiuzhen Cheng&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">15:30 - 16:15&lt;/td>
+&lt;td style="text-align:left">&lt;a href="talk7">Talk 7: Edge Intelligence and V2X Enabled Autonomous Driving&lt;/a>&lt;/td>
+&lt;td style="text-align:left">Jianping Wang&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">16:15 - 17:00&lt;/td>
+&lt;td style="text-align:left">&lt;a href="talk8">Talk 8: AI in Multimedia Advertising&lt;/a>&lt;/td>
+&lt;td style="text-align:left">Wei Liu&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="organizer">Organizer&lt;/h2>
+&lt;p>香港理工大学边缘智能实验室, The PolyU Edge Intelligence Laboratory (PEILab)&lt;br>
+粤港澳大湾区人工智能与机器人联合会, Guangdong-Hong Kong-Macao Greater Bay Area Artificial Intelligence and Robotics Society (GBAIRS)&lt;/p>
+&lt;p>&lt;img src="org.png" alt="">&lt;/p>
+&lt;h2 id="zoom-link">Zoom Link&lt;/h2>
+&lt;p>Zoom Meeting ID: 979 8286 5871&lt;/p>
+&lt;p>Passcode: 395844&lt;/p>
+&lt;p>Zoom Meeting Link: &lt;a href="https://polyu.zoom.us/j/97982865871?pwd=NUJGUWw0b1pnellCNzQvSys3V1ZBUT09">https://polyu.zoom.us/j/97982865871?pwd=NUJGUWw0b1pnellCNzQvSys3V1ZBUT09&lt;/a>&lt;/p>
+&lt;p>Join by Skype for Business &lt;a href="https://polyu.zoom.us/skype/97982865871">https://polyu.zoom.us/skype/97982865871&lt;/a>&lt;/p></description></item></channel></rss>
