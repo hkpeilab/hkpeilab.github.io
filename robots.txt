@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://hkpeilab.netlify.app/sitemap.xml
